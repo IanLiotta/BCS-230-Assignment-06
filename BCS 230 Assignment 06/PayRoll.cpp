@@ -25,5 +25,6 @@ double PayRoll::getHours() {
 }
 
 double PayRoll::calcNet(double taxRate) {
-	return (hoursWorked * hourlyRate) * taxRate;
+	double tax = (hoursWorked * hourlyRate) * taxRate;
+	return (hoursWorked * hourlyRate) - tax;
 }
