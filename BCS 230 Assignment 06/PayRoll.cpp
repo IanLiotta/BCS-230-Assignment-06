@@ -8,10 +8,6 @@ PayRoll::PayRoll()
 	hoursWorked = 0.0;
 }
 
-PayRoll::PayRoll() {
-
-}
-
 void PayRoll::setRate(double rate) {
 	hourlyRate = rate;
 }
